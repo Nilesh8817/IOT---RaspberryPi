@@ -1,0 +1,6 @@
+camera=PiCamera() 
+camera.resolution=(1280,720) 
+camera.start_preview() 
+sleep(10) 
+camera.capture('/home/pi/Pictures/img.jpg') 
+camera.stop_preview()
